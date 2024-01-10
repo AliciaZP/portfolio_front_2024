@@ -1,0 +1,8 @@
+ng g module modules/reports
+
+ng g module modules/reports/ReportsRouting
+
+ng g c modules/constructions/pages/IdConstruction --skip-tests
+ng g s core/services/users
+
+ npx @angular/cli@16 new front_constructora
