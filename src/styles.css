@@ -141,17 +141,20 @@ table {
 
 :root {
     --font-main: 'Montserrat', sans-serif;
-    --font-secondary: 'Zilla Slab', serif;
-    --color-main: #af1e2d;
-    --color-second: #0f0f0f;
-    --color-third: #a3a8a3;
-    --color-white: white;
+    --font-secondary: ;
+
+    --color-main: rgb(146, 206, 219);
+    --color-second: black;
+    --color-third: white;
+
     --fontsize-h2: 2.5rem;
     --fontsize-h3: 1.4rem;
     --fontsize-h4: 1.2rem;
+
     --fontweight-h2: 700;
     --fontweight-h3: 600;
     --fontweight-h4: 500;
+
     --font-lineheight: 1.5rem;
 }
 

@@ -6,3 +6,21 @@ ng g c modules/constructions/pages/IdConstruction --skip-tests
 ng g s core/services/users
 
  npx @angular/cli@16 new front_constructora
+
+
+
+
+
+
+
+
+
+
+ 
+/* mediaqueries */
+
+@media(min-width: 48rem) {}
+
+@media(min-width: 62.5rem) {}
+
+@media(min-width: 87.5rem) {}

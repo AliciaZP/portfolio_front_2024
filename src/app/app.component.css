@@ -1,0 +1,14 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
