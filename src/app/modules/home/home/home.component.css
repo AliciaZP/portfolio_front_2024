@@ -7,8 +7,9 @@
     display: inline-block;
     background-color: var(--color-second);
     color: var(--color-third);
-    width: 70vw;
+    width: 78vw;
     height: 80vh;
+    position: relative;
 }
 
 #nav-bar {
@@ -35,14 +36,14 @@
 }
 
 .block-text {
-    padding-top: 2.8rem;
-
+    position: absolute;
+    bottom: -16px;
 }
 
 h1 {
     color: var(--color-main);
     font-weight: 700;
-    font-size: 5.5rem;
+    font-size: 8rem;
 }
 
 #name h2 {
@@ -51,10 +52,9 @@ h1 {
 }
 
 
-
 li {
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 2.5rem;
     cursor: pointer;
 
     &:hover {
@@ -62,13 +62,14 @@ li {
     }
 }
 
+
 .first-box {
     display: flex;
     align-items: bottom;
     justify-content: center;
     width: 40vw;
     height: 200px;
-    padding-top: 7rem;
+    padding-top: 4.5rem;
 }
 
 .second-box {
@@ -77,18 +78,21 @@ li {
     justify-content: center;
     background-color: var(--color-main);
     width: 40vw;
-    height: 200px;
+    height: 300px;
 }
 
 .second-box h2 {
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 2.9rem;
+    padding-top: 1rem;
 }
 
 #job {
+    text-align: center;
+    align-items: center;
     color: var(--color-second);
     background-color: var(--color-main);
-    width: 5vw;
+    width: 7vw;
     height: 80vh;
     position: relative;
 }
@@ -98,8 +102,8 @@ li {
     font-weight: 700;
     font-size: 2.7rem;
     width: 500px;
-    position: relative;
-    bottom: -240px;
+    position: absolute;
+    top: 230px;
     left: -235px;
 }
 
@@ -111,7 +115,9 @@ li {
 }
 
 
-
+#options ul li {
+    padding-top: 15px
+}
 
 
 
